@@ -128,8 +128,8 @@ nav ul li a:hover{
     width:350px;
     height:350px;
     border-radius:50%;
-    background:linear-gradient(135deg,#38bdf8,#6366f1);
-    box-shadow:0 0 80px rgba(56,189,248,0.5);
+    background:linear-gradient(135deg,#011118,#0f172a);
+    box-shadow:0 0 80px rgba(4, 4, 153, 0.5);
 }
 
 /* SECTION */
@@ -303,4 +303,16 @@ footer{
         height:250px;
     }
 
+}
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.circle img {
+    height: 120%;
+    object-fit: cover;
+    display: block;
 }
